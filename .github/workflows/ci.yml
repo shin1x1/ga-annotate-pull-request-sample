@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: |
-      echo "::error file=readme.md,line=1,col=0::Error message."
-      echo "::notice file=readme.md,line=2,col=0::Notice message."
-      echo "::warning file=readme.md,line=3,col=0::Warning message."
-      exit 1
+        echo "::error file=readme.md,line=1,col=0::Error message."
+        echo "::notice file=readme.md,line=2,col=0::Notice message."
+        echo "::warning file=readme.md,line=3,col=0::Warning message."
+        exit 1
